@@ -8,7 +8,9 @@ import {
   FaJs,
   FaNode,
   FaReact,
+  
 } from "react-icons/fa";
+import {SiPrisma} from "react-icons/si"
 
 export const stackData = [
   {
@@ -32,7 +34,7 @@ export const stackData = [
     title: "React",
     img: FaReact,
   },
-  { title: "Next.js", img: TbBrandNextjs },
+  { title: "Prisma", img: SiPrisma },
   { title: "Docker", img: FaDocker },
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "Git", img: FaGit },
